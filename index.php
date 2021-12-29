@@ -1,3 +1,3 @@
 <?php
-  echo 'Hello GitHub!';
+  echo 'PHP Hello GitHub!';
 ?>
