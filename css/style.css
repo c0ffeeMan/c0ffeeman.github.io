@@ -1,16 +1,17 @@
 .wrapper {
-    font-family: Arial, "Arial Black";
-    letter-spacing: -1px;
+    /*font-family: Arial, "Arial Black";*/
+    /*color: #F3F3F3;*/
     width: 55%;
     min-width: 300px;
     max-width: 350px;
     height: 100%;
     margin: 10px auto;
-    padding: 30px;
-    border: 1px solid #ccc;
+    padding: 25px 30px 15px 30px;
+    border: 1px solid #CCCCCC;
     border-radius: 7px;
     text-align: center;
     position: relative;
+    background: rgba(0,0,0, 0.02);
 }
 header {
     text-align: left;
@@ -26,13 +27,10 @@ h1 {
 }
 a {
     text-decoration: none;
+    color: #0b0b0b;
 }
 footer {
-    font-size: 8px;
-    position: absolute;
-    bottom: 10px;
-    left: 50%;
-    transform: translate(-50%);
+    margin: 0 auto;
 }
 .popup-gallery {
     margin: 15px auto;
@@ -44,4 +42,8 @@ footer {
     margin: 5px;
     border-radius: 7px;
     border: 1px solid #ccc;
+}
+.gallery-thumb {
+    box-shadow: #0b0b0b;
+    background: rgba(0,0,0, 0.05);
 }
